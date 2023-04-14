@@ -1,0 +1,48 @@
+HELP.md
+target/
+pom.xml.backup
+release.properties
+pom.xml.releaseBackup
+checkstyle-cachefile
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Other build artifacts
+*.jar
+*.war
+*.ear
+*.zip
+
+# Misscellaneous
+*.DS_Store
+Thumbs.db
